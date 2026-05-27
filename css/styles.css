@@ -160,6 +160,7 @@ button { font: inherit; }
 .display.ink    { color: var(--ink); }
 .display.white  { color: var(--white); }
 .display.yellow { color: var(--yellow); }
+.display.orange { color: var(--orange); }
 
 .eyebrow {
   display: inline-block;
@@ -444,6 +445,19 @@ button { font: inherit; }
 }
 @media (min-width: 640px) {
   .pay-methods { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------- Merch ---------- */
+.merch-section {
+  background: var(--yellow);
+  padding: clamp(80px, 12vw, 160px) 20px;
+  text-align: center;
+}
+.merch-section .eyebrow { margin-bottom: 24px; }
+.merch-headline {
+  font-size: clamp(56px, 13vw, 180px);
+  transform: rotate(-2deg);
+  display: inline-block;
 }
 
 /* ---------- Footer ---------- */
