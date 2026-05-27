@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Sneak peek 2026">
+  <defs>
+    <filter id="s" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <g filter="url(#s)">
+    <path d="M 100,5 L 120.2,24.7 L 147.5,17.7 L 155.1,44.9 L 182.3,52.5 L 175.3,79.8 L 195,100 L 175.3,120.2 L 182.3,147.5 L 155.1,155.1 L 147.5,182.3 L 120.2,175.3 L 100,195 L 79.8,175.3 L 52.5,182.3 L 44.9,155.1 L 17.7,147.5 L 24.7,120.2 L 5,100 L 24.7,79.8 L 17.7,52.5 L 44.9,44.9 L 52.5,17.7 L 79.8,24.7 Z" fill="#293af4" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="100" cy="100" r="78" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="3 4" opacity="0.55"/>
+    <g font-family="'Helvetica Neue', 'Arial Black', Arial, sans-serif" font-weight="900" text-anchor="middle">
+      <text x="100" y="78" font-size="22" fill="#ffffff" letter-spacing="3">SNEAK</text>
+      <text x="100" y="103" font-size="22" fill="#ffffff" letter-spacing="3">PEEK</text>
+      <text x="100" y="150" font-size="38" fill="#ffe600" letter-spacing="2">2026</text>
+    </g>
+  </g>
+</svg>
