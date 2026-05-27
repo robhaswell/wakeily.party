@@ -259,7 +259,7 @@ button { font: inherit; }
 
 /* ---------- Poster section ---------- */
 .poster-section {
-  background: var(--white);
+  background: #e5e5e5;
   padding: 0;
   display: flex;
   justify-content: center;
