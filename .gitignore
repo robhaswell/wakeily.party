@@ -144,3 +144,5 @@ vite.config.ts.timestamp-*
 
 # Build staging for the gh-pages workflow
 _site/
+
+.DS_Store
