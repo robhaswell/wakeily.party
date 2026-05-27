@@ -213,8 +213,19 @@ button { font: inherit; }
   height: 100%;
   position: relative;
 }
-.slide img {
+.slide > img {
   width: 100%; height: 100%; object-fit: cover;
+}
+.slide .emblem {
+  position: absolute;
+  top: 62%;
+  left: 58%;
+  width: clamp(120px, 20vw, 230px);
+  height: auto;
+  transform: translate(-50%, -50%) rotate(-8deg);
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.35));
 }
 
 .carousel-btn {
