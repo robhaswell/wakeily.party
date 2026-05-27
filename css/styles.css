@@ -456,6 +456,7 @@ button { font: inherit; }
 .merch-section .eyebrow { margin-bottom: 24px; }
 .merch-headline {
   font-size: clamp(56px, 13vw, 180px);
+  line-height: 0.82;
   transform: rotate(-2deg);
   display: inline-block;
 }
